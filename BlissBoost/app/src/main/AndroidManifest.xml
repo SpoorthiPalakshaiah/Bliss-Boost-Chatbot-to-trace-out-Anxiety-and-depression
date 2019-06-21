@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bliss_boost">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".graph_out"></activity>
+        <activity android:name=".Booster" />
+        <activity android:name=".test2page13" />
+        <activity android:name=".test2page12" />
+        <activity android:name=".test2page11" />
+        <activity android:name=".test2page10" />
+        <activity android:name=".test2page9" />
+        <activity android:name=".test2page8" />
+        <activity android:name=".test2page7" />
+        <activity android:name=".test2page6" />
+        <activity android:name=".test2page5" />
+        <activity android:name=".test2page4" />
+        <activity android:name=".test2page3" />
+        <activity android:name=".test2page2" />
+        <activity android:name=".DepressionTest" />
+        <activity android:name=".Personaldetails" />
+        <activity android:name=".ProgressTracker">
+            <intent-filter>
+                <action android:name="android.intent.action.ProgressTracker" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test1page18" />
+        <activity android:name=".test1page17" />
+        <activity android:name=".test1page16" />
+        <activity android:name=".test1page15" />
+        <activity android:name=".test1page14" />
+        <activity android:name=".test1page13" />
+        <activity android:name=".test1page12" />
+        <activity android:name=".test1page11" />
+        <activity android:name=".test1page10" />
+        <activity android:name=".test1page9" />
+        <activity android:name=".test1page8" />
+        <activity android:name=".test1page7" />
+        <activity android:name=".test1page6" />
+        <activity android:name=".test1page5" />
+        <activity android:name=".test1page4" />
+        <activity android:name=".test1page3" />
+        <activity android:name=".test1page2" />
+        <activity android:name=".AnxietyTest" />
+        <activity android:name=".Remainder" />
+        <activity android:name=".Home" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

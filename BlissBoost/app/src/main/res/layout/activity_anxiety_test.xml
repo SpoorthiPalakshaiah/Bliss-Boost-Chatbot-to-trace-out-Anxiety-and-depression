@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnxietyTest"
+    android:background="@drawable/bg_gradient">
+
+
+    <TextView
+        android:id="@+id/tvGreetings"
+        android:layout_width="392dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bot_bubble"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:text="Mood problems affect people all over the world, so you're never alone in how you feel. Here we'll cover questions about your mood,stress levels and self-esteem.Your answers are private. So try to do all that you can"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="423dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ok! Ready to continue!!!"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

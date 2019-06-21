@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="4dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filltext"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:layout_marginTop="100dp"
+                android:background="#4DFFFFFF"
+                android:padding="4dp"
+                android:text="Try these things to boost yourself!!"
+                android:textColor="#0F75C7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Singing"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#9FD29EDB"
+                android:text="The only thing better than singing is more singing.Try listening to new songs or your favorite song.Singing strengthens the immune system and is also a natural anti-depressant."
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Dance"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#BE6C79C4"
+                android:text="Dancing with feet is one thing,dancing with HEART is another.Dancing is a way to stay fit for people of all ages,shapes and sizes.What are you waiting for? Get on the floor and move your legs."
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Drawing / Painting"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#A4EE7065"
+                android:text="Life is ART,live yours in {COLOR}.Draw for the love of drawin' ypu don't need a reason.Just take a white piece of paper,draw whatever you feel. "
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Yoga / Meditation"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#A672C7BF"
+                android:text="This is not just repetition of few postures - it is more about the exploration and discovery of swubtle energies of life.Inhale the future,exhale the past.Give this world good energy. "
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Games"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#BC7FDB83"
+                android:text="So,gaming is your hobby right? Come on,Move on,play your favorite game and be a CHAMPION. "
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Gardening"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#CBCFDA6B"
+                android:text="Is gardening your favorite hobby? So,Go out,Garden your surroundings,and years to your life and life to your years.  "
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Reading"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:background="#BCF7E339"
+                android:text="Reading Reading Reading!!!! Books are the treasured wealth of the world and the fit inheritance of generations and nations.Get up,read some books,enhance your knowledge. "
+                android:textColor="#404443"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+
+                android:text="Watching TV"
+                android:textColor="#E91E63"
+                android:textSize="20dp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="5dp"
+                android:textColor="#404443"
+                android:background="#88FFBF00"
+                android:text="Wanna kill time?? Switch on the TV and entertain yourself.Compensate your stress from your life, it might completely take your mind off your daily rigimen.So sit back and enjoy your favorite show!"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

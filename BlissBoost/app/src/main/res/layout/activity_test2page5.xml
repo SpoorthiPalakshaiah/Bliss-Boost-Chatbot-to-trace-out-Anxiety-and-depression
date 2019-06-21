@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".test1page2">
+
+    <ScrollView
+        android:id="@+id/tscroll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttvGreetings"
+                android:layout_width="323dp"
+                android:layout_height="205dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Mood problems affect people all over the world, so you're never alone in how you feel. Here we'll cover questions about your mood,stress levels and self-esteem.Your answers are private. So try to do all that you can"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ttvReply1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="208dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Ok!Ready to continue!"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/ttvchat2"
+                android:layout_width="275dp"
+                android:layout_height="157dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="I can update your disease risks, I might ask some questions.Any answers you give will be saved!"
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/ttvReply2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="298dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Got it!!"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/ttvq1"
+                android:layout_width="337dp"
+                android:layout_height="89dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Little interest or pleasure in doing things?"
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/ttvReply3"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/ttvq2"
+                android:layout_width="283dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Trouble falling or staying asleep,or sleeping too much? "
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+            <TextView
+                android:id="@+id/ttvReply4"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <RadioGroup
+                android:id="@+id/trg3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ttvq3"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bot_bubble"
+                    android:elevation="4dp"
+                    android:padding="12dp"
+                    android:text="Feeling down,depressed,or hopeless?"
+                    android:textSize="20sp"
+                    app:fontFamily="@font/montserrat" />
+
+                <RadioButton
+                    android:id="@+id/trbq31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Not at all"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/trbq32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Several days"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/trbq33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:checked="true"
+                    android:text="More than half the days"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/trbq34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Nearly every day"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/tbtna3"
+                android:layout_width="174dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="3"
+                android:text="Done!!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

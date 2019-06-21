@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".test1page2">
+
+    <ScrollView
+        android:id="@+id/scroll4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGreetings"
+                android:layout_width="323dp"
+                android:layout_height="205dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Mood problems affect people all over the world, so you're never alone in how you feel. Here we'll cover questions about your mood,stress levels and self-esteem.Your answers are private. So try to do all that you can"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvReply1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="208dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Ok!Ready to continue!"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/tvchat2"
+                android:layout_width="275dp"
+                android:layout_height="157dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="I can update your disease risks, I might ask some questions.Any answers you give will be saved!"
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/tvReply2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="298dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Got it!!"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/tvq1"
+                android:layout_width="wrap_content"
+                android:layout_height="320dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Do you experience episodes of intense fear or panic, that may be accompanied by one or more of the follwing sensations: Racing heart,sweating,lightheadedness,a feeling like something very bad is going to happen(impending doom),shortness of breath,chest pains,extreme nervousness,shaking, and you feel like you have to get out?"
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+
+            <TextView
+                android:id="@+id/tvReply3"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+
+            <TextView
+                android:id="@+id/tvq2"
+                android:layout_width="300dp"
+                android:layout_height="159dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Have you been to your doctor or the emergency department at the hospital about your anxiety more than twice? "
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/tvReply4"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+
+            <TextView
+                android:id="@+id/tvq3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bot_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:text="Do you find yourself worrying or being afraid a lot?"
+                android:textSize="20sp"
+                app:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:id="@+id/tvReply5"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/me_bubble"
+                android:elevation="4dp"
+                android:padding="12dp"
+                android:textSize="15sp"
+                app:fontFamily="@font/montserrat" />
+
+
+
+            <RadioGroup
+                android:id="@+id/rg4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvq4"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bot_bubble"
+                    android:elevation="4dp"
+                    android:padding="12dp"
+                    android:text="Do you find yourself avoiding certain situations because you are afraid that your anxiety might spike or you might have panic attack?"
+                    android:textSize="20sp"
+                    app:fontFamily="@font/montserrat" />
+
+                <RadioButton
+                    android:id="@+id/rbq41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Never"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbq42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Rarely"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbq43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:checked="true"
+                    android:text="Sometimes"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbq44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_weight="3"
+                    android:text="Frequently"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbq45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3"
+                    android:text="Always"
+                    android:textColor="#FBFBFB"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btna4"
+                android:layout_width="174dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="3"
+                android:text="Done!!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
